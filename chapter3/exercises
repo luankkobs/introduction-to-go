@@ -1,0 +1,20 @@
+1. Quais são as duas maneiras de criar uma váriavel nova?
+r: var x float64 (tipo) || x := "valordavariavel"
+
+2. Qual é o valor de x após a execução de x := 5; x += 1?
+r: 6
+
+3. O que é escopo? Como determinamos o escopo de uma variável em Go?
+r: Escopo pode ser definido como um conjunto de lugares em que você pode usar "x".
+A váriavel se definida dentro de uma função, uma estrutura de repetição como if, for, switch e etc.. Podem ser acessadas
+apenas dentro desses blocos, não poderá ser acessada fora desse escopo.
+
+4. Qual a diferença entre var e const?
+r: Você pode definir uma váriavel (var) e posteriormente alterar o seu valor. No caso da constante o valor não pode ser
+alterado posteriormente.
+
+5. Usando o programa de exemplo como ponto de partida, escreva um programa que converta Fahrenheit em Celsius (C=(F-32)*5/9)
+r: chapter3/celsius.go
+
+6. Escreva outro programa que faça a conversão de pés para metros. (1 pé = 0,3048m)
+r: chapter3/metros.go
