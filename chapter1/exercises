@@ -1,0 +1,16 @@
+1. O que é um espaço em branco?
+r: Quebras de linha, espaços e tabulações são conhecidos como espaços em branco.
+
+2. O que é um comentário? Quais são as duas maneiras de escrever um comentário?
+r: Os comentários são ignorados pelo compilador de Go e estão aqui para facilitar sua vida ou de quem vai ler o código-fonte.
+Go aceita dois estilos de comentários: Comentários //, em que todo texto entre // e o final da linha faz parte do comentário.
+E comentparios /* */ em que tudo que estiver entre os asteriscos faz parte dos comentários (varias linhas são incluidas).
+
+3. Nosso programa começou com package main. Os arquivos do pacote fmt devem começar com qual instrução?
+r: Após importar o package fmt, a instrução inicial deve ser fmt.
+
+4. Usamos a função Println definida no pacote fmt. Se quiséssemos usar a função Exit do pacote os, o que você deveria fazer?
+r: Importar o pacote os e inlucir o os.Exit().
+
+5. Modifique o programa que escrevemos de modo que, em vez de exibir Hello, World ele apresente Hello, my name is, seguido de seu nome.
+R: Resposta no chapter1/main.go
