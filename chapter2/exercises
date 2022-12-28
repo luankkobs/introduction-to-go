@@ -1,0 +1,17 @@
+1. Como os inteiros são armazenados em um computador?
+r: São armazenados como uma sequência de dígitos binários (base 2).
+
+2. Sabemos que (na base 10) o maior número de um dígito é 9 e o maior número de dois dígitos é 99. Considerando que em
+binário, o maior número de dois dígitos é 11 (3), o maior nújmero de três dígitos é 111 (7) e o maior número de quatro
+dígitos é 1111 (15), qual é o maior número de oito dígitos?
+r: 00001000
+
+3. Embora seja excessivamente qualificado para a tarefa, podemos usar Go como uma calculadora. Escreva um programa que
+r: chapter2/calculator.go
+
+4. O que é uma string? Como descobrimos seu tamanho?
+r: Uma string é uma sequência de caracteres com um tamanho definido, usada para representar texto. Seu tamanho pode ser
+visto usando len do package strings.
+
+5. Qual é o valor da expresão (true && false) || (false && true) || !(false && false)?
+r: false
