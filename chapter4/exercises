@@ -1,0 +1,9 @@
+1. O que o programa a seguir exibe?
+r: chapter4/exercise1.go ("Small")
+
+2. Escreva um programa que exiba todos os números entre 1 e 100 que sejam divisíveis por 3 (isto é, 3, 6, 9 etc).
+r: chapter4/exercise2.go
+
+3. Escreva um programa que exiba os números de 1 a 100, mas para múltiplos de três, mostre "Fizz" no lugar do número e,
+para múltiplos de cinco, exiba "Buzz". Para números que sejam múltiplos tanto de três quanto de cinco, mostre "FizzBuzz"
+r: chapter4/exercise3.go
