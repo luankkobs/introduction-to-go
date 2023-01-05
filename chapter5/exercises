@@ -1,0 +1,10 @@
+1. Como podemos acessar o quarto elemento de um array ou de uma fatia?
+r:
+
+2. Qual é o tamanho de uma fatia criada com make([]int, 3, 9)?
+r:
+
+3. Dado o array a seguir, o que x[2:5] devolveria? x := [6]string{"a", "b", "c", "d", "e", "f"}
+r:
+
+4: Escreva um programa que descubra o menor número desta lista:
