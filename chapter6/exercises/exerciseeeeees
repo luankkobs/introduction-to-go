@@ -1,0 +1,46 @@
+1. sum é uma função que aceita uma fatia de números e os soma. Como seria a assinatura dessa função em Go?
+r:
+
+
+2. Escreva uma função que aceite um inteiro, calcule sua metade e devolva verdadeiro se o número for par ou falso se for ímpar.
+por exemplo, half(1) deve devolver (0, false) e half(2) deve devolver (1, true).
+r: chapter6/exercises/exercise2
+
+
+3. Escreva uma função como um parâmetro variádico que descubra maior número de uma lista de números.
+r: chapter6/exercises/exercise3
+
+
+4. Usando makeEvenGenerator como exemplo, escreva uma função makeOddGenerator que gere números ímpares.
+r: chapter6/exercises/exercise4.go
+
+
+5. A sequência de Fibonacci é definida como: fib(0) = 0, fib(1) = 1, fib(n) = fib(n-1) + fib(n-2). Escreva uma função
+recursiva capaz ded calcular fib(n)
+r: chapter6/exercises/exercise5.go
+
+6. O que são defer, panic e recover? Como podemos nos recuperar de um pânico em tempo de execução?
+r:
+Defer: Basicamente transfere a chamada, defer é usada quando recursos de algum modo, precisam ser liberados.
+
+Panic: Um panic geralmente inidica um erro do programador ou uma condição excepcional da qual não há uma maneira fácil
+de se recuperar.
+
+Recover: Interrompe o panic e devolve o valor passado para a chamada a panic.
+
+Para se recuperar de um pânico em tempo de execução devemos compor a chamada com um defer, exemplo em chapter6/exercise6.
+
+7. Como podemos obter um endereço de memória de uma variável?
+r: Podemos usar o operador & para descobrir o endereço de uma variável.
+
+8. Como podemos atribuir um valor a um ponteiro?
+r: *xPtr = 0 é um exemplo de valor atribuido para um ponteiro.
+
+9. Como podemos criar um novo ponteiro?
+r: Em Go um ponteiro é representado por um asterisco (*) seguido do tipo do valor armazenado. Ex: *xPtr *int
+
+10. Qual é o valor de x após a execução deste programa?
+r: chapter6/exercises/exercise10.go (2,25)
+
+11. Escreva um programa que possa trocar dois inteiros.
+r:
